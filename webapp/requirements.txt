@@ -1,0 +1,12 @@
+flask>=3.0
+pandas
+openpyxl
+numpy
+# needed from Phase 2 onward (risk prediction) - already used by your research code:
+catboost
+scikit-learn
+joblib
+# tests
+pytest
+lime
+reportlab
