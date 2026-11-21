@@ -119,6 +119,10 @@ It generates 60 contextual features covering areas such as:
 - Business, financial and reputational impact
 - Emergent capability and risk amplification
 
+emergent_capability_score = information angle × technical angle, when both are above 0. Otherwise it is 0.3 × their sum.
+attack_feasibility_score = 0.4 × vulnerability interaction + 0.3 × privilege escalation + 0.3 × (1 − control effectiveness ÷ 10).
+risk_amplification_score = 0.5 × emergent + 0.3 × attack feasibility + 0.2 × contextual information gain.
+
 The generated feature dictionary is used for model input preparation.
 
 Step 7 – Machine Learning Model Training and Comparison
